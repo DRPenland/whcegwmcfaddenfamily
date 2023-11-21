@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <title>Contact Form</title>
+</head>
+<body id="contactform">
+    <header>
+        <nav>  
+            <img src="images/home-page/mcfadden-crest.png" alt="McFadden Family Crest"/>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PATRIARCH</a></li>
+                <li><a href="#">MATRIARCH</a></li>
+                <li><a href="#">CHILDREN</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Form</h1>
+    </header>
+    <main>
+        <h2>About Contact Form</h2>
+        <p>If you might be a McFadden relative and would like to drop us a note, please fill out the form below.</p>
+        <br/>
+        <form action="submitme.php" method="post">
+            <div>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+            <br/>
+            <div>
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <br/>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="off">
+            </div>
+            <br/>
+            <div>
+                <!-- <label for="message">Message</label> -->
+                <textarea name="message" rows="20" cols="60" placeholder="Write message here...."></textarea>
+            </div>
+            <input class="btn" type="submit">&nbsp;&nbsp;<input type="reset"><br/>
+        </form>
+    </main>
+    
+</body>
+</html>
