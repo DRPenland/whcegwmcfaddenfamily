@@ -627,7 +627,7 @@ footer ul li a:hover{
         text-transform: capitalize;
         padding:25px;
         margin-left: 25px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .whcmain p{                             /*Paragraphs about individual sections like Birth/Parents, Residence/Census, etc.*/
@@ -637,7 +637,7 @@ footer ul li a:hover{
         bottom: 68px;
         margin-left: 25px;
         margin-right: 25px;
-        border: 1px solid purple;
+        /* border: 1px solid purple; */
     }
 
     .whcmain a{                       /*Link to Findagrave under Death/Burial Section*/
