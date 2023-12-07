@@ -114,7 +114,6 @@ header h1 {font-family:'Croissant One','Times New Roman', serif;
     height: 120px;
     /* padding: 15px; */
     text-align: center;
-    vertical-align: center;
     clear: left;
     position: relative;
     top: 25px;
@@ -345,74 +344,7 @@ footer ul li a:hover{
     background-color: #1b341e;
     }
 
-    /* #contactform header{
-        height: 500px;
-        width: 100%;
-        outline: 1px solid red; 
-        background-color:#1b341e;
-        background-image: url(../images/home-page/pexels-daniel-shapiro-17946182.jpg);
-        background-repeat: no-repeat;
-        background-size: auto;
-        background-position:center center;  */
-     
     
-    /* Explore background options at https://www.w3schools.com/cssref/pr_background-position.php */
-    
-    /* #contactform header nav{
-        background-color: #D9D9D9;
-        width: 100%;
-        height: 350px;
-        outline: 1px solid red; */
-     
-    
-    /* #contactform header nav img{
-        width: 15%;
-        height: 300px;
-        margin: 10px;
-        padding-right: 15px;
-    } */
-    
-    /* #contactform header nav ul li{
-        font-family:'Croissant One','Times New Roman', serif;
-        font-weight: 900;
-        font-style: italic;
-        color: #406833;
-        font-size: 24px;
-        list-style-type: none;
-        float: left;
-        padding: 10px;
-        margin-left: 150px;
-        position: relative;
-        left: 200px;
-        top: -200px;
-    } */
-    
-    /* #contactform header nav ul li a{
-        color:#406833;
-        width: 100%;
-    } */
-
-    /* #contactform nav ul li a:hover{
-        color:#a5bf6b;
-        background-color:#1b341e;
-    } */
-    
-    /* #contactform nav ul li a:visited{
-        color: red;
-        background-color: #D9D9D9;
-    } */
-            
-    /* #contactform header h1 { 
-        font-family:'Croissant One','Times New Roman', serif;
-        font-size: 32px;
-        font-weight:900;
-        color:#D9D9D9;
-        background-color:#1b341e;
-        height: 120px;
-        clear: left;
-        position: relative;
-        left: 650px;
-    } */
 
     #contactform body{
         width: 100%;
@@ -672,39 +604,7 @@ footer ul li a:hover{
         left: 750px;
         padding: 10px;
     }
-    /* .kidsnames {
-        font-weight: 900;
-    } *
-    
-
-    #page3 footer a {
-        color:#406833;
-    }
-
-    #page3 footer a:hover{
-        color: #a5bf6b;
-        background-color: #1b341e;
-    }
-
-   .top {
-        font-family:'Fira Sans Condensed', 'Times New Roman', sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 900;
-        text-transform:capitalize
-        position: relative;
-        top: 50px;
-        right: 910px;
-        /* padding: 25px; */
-
-    
-     /* .top a{
-        color:#406833;
-    } 
-    
-    .top a:hover{
-        color: #a5bf6b;
-    } */
+  
     
   /* ***************************************************************************************** */
     /* Page 4 Ellen Golden Watts McFadden Starts Here */
@@ -742,3 +642,106 @@ footer ul li a:hover{
         bottom: 535px;
         left: 125px;
     }
+
+     /* ***************************************************************************************** */
+    /* Page 5 Mary Lula McFadden Starts Here */
+
+   .lulapic {
+    width:250px;
+    height: 350px;
+    position: relative;
+    left: 600px;
+    top: 40px;
+}
+
+.lulapic figcaption {
+    color: #D9D9D9;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+
+.lulapic p {                                  /*Lula McFadden's birth and death dates*/
+    color: #D9D9D9;
+    font-family:'Croissant One','Times New Roman', serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight:900;
+    /* padding: 10px; */
+    color: #D9D9D9;                                             
+    position: relative;
+    top: 45px;
+    left: 25px;
+} 
+
+.marcert img {                            /*Marriage Certificate for Lula McFadden Rowan*/
+    width: 300px;
+    height: 450px;
+    position: relative;
+    top: -325px;
+    left: 125px;
+}
+
+.marcert figcaption {
+    color: #D9D9D9;
+    position: relative;
+    top: -275px;
+    left: 140px;
+}
+
+.lulaobit img {                  /*Obituary for Lula McFadden Rowan*/
+    width: 300px;
+    height: 450px;
+    position: relative;
+    bottom: 825px;
+    left: 1050px;
+}
+
+.lulaobit figcaption {
+    color: #D9D9D9;
+    position: relative;
+    bottom: 800px;
+    left: 1075px;
+}
+
+/*************************************************************************************************************************/
+/************CSS CODING FOR VIDEO PAGE STARTS NOW ***********************************************************************/
+
+#video header {
+    height: 450px;
+    background-color: #1b341e;
+}
+
+#video h1{
+    color: #D9D9D9;
+    text-align: center;
+    top: -25px;
+}
+
+main{
+    background-color: #a5bf6b;
+}
+
+h3 {
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 50px;
+}
+
+p {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#video div {              /*Don't use this command without #video to center video, it will cause previous pages to get out of alignment*/
+    text-align: center;
+} 
+
+ /* div iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ } */
+ 
