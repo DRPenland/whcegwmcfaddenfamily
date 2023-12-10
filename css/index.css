@@ -33,6 +33,7 @@
     font-weight:900;
 }
 
+
 /* RESET STYLESHEET */
 
 *{ 
@@ -595,7 +596,7 @@ footer ul li a:hover{
         float: right;
         position: relative;
         bottom: 75px;
-        right: 950px;
+        right: 885px;
     }
 
     .kidsnames li{                  /*List of WHC and EGW McFadden's Children*/
